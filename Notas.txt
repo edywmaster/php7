@@ -1,0 +1,8 @@
+///Git Criar pasta respositorio
+#git init
+
+///Git Adicionar 
+#git add -all
+
+///Git Commit
+#git commit -m "Adicionei Texto Ajuda"
