@@ -10,7 +10,9 @@
 ///Definir pasta github
 #git remote add origin https://github.com/edywmaster/php7.git
 
-///Atualizar github
+///Atualizar versao github
 #git push origin master
+
+///Atualizar versao local
 
 
