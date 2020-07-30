@@ -1,0 +1,31 @@
+///Git Criar pasta respositorio
+#git init
+
+///Checar qual é origin
+#git remote -v
+
+///Definir pasta github
+#git remote add origin https://github.com/edywmaster/php7.git
+
+///Git Adicionar 
+#git add -all
+
+///Git Commit
+#git commit -m "Adicionei Texto Ajuda"
+
+///PUSH enviar para github
+#git push origin master
+
+///PUSH enviar para github forcando
+#git push -u origin master --force
+
+///PULL receber versao github
+#git pull origin master
+
+///PULL permitir que o Git faça o merge de dois projetos com históricos diferentes
+git pull origin master --allow-unrelated-histories
+
+///Sincronizar repositorio
+git fetch --prune
+git rebase origin/master
+
